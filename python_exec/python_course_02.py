@@ -3,4 +3,5 @@
 # @File    : python_course_02.py
 # @Software: PyCharm
 
+# echo "hello world" to terminal
 print("hello world")
