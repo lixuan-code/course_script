@@ -4,13 +4,13 @@
 # @Software: PyCharm
 
 print("I am %d years old." % 10)
-print("%s is %d years old." % ('Tom', 10))
+print("%s is %d years old." % ("Tom", 10))
 
 name = "Tom"
 age = 12
 print("%s is %d years old." % (name, age))
 
-print("{0} is {1:.2f} years old.".format('Tom', age))
+print("{0} is {1:.2f} years old.".format("Tom", age))
 
 info = {"name": "Joe", "age": 18}
 print("{name} is {age:.2f} years old.".format(**info))
@@ -30,4 +30,4 @@ message = (
 )
 print(message)
 
-print("Hello","World", sep=',',end='!')
+print("Hello", "World", sep=",", end="!")
