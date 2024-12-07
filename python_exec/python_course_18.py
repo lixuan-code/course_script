@@ -5,12 +5,12 @@
 
 class GoodStudent:
 
-    def __init__(self, name, age, score):
+    def __init__(self, name, age, score): #实例属性
         self.name = name
         self.age = age
         self.score = score
 
-    def say_score(self):
+    def say_score(self): # 实例方法
         print("{}'s score is {}".format(self.name, self.score))
 
 stu1 = GoodStudent("Tom",18, 87)
